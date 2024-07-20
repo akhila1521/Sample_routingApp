@@ -1,0 +1,21 @@
+<!-- <div>
+    <ul>
+        <li><a routerLink="./home" routerLinkActive="Active">Home</a></li>
+        <li><a routerLink="['./hello']" routerLinkActive="Active">DirectiveEx</a></li>
+        <li><a routerLink="['/contact']" routerLinkActive="Active">Contact Us</a></li>
+        <li><a routerLink="['./example']" routerLinkActive="Active">Form</a></li>
+        <li><a routerLink="['./usercards']" routerLinkActive="Active">Users</a></li>
+    </ul>
+</div> -->
+
+<div class="container1">
+    <ul>
+        <div class="linkDiv">
+            <li><a [routerLink]="['/home']" routerLinkActive="Active">Home</a></li>
+            <li><a [routerLink]="['/products']" routerLinkActive="Active">Products</a></li>
+            <li><a [routerLink]="['/cart']" routerLinkActive="Active">Cart ({{count}})</a></li>
+            <li><a [routerLink]="['/contact']" routerLinkActive="Active">Contact</a></li>
+            <li><a [routerLink]="['/admin']" routerLinkActive="Active">Admin</a></li>
+        </div>
+    </ul>
+</div>

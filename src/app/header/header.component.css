@@ -1,0 +1,23 @@
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.container1{
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    background-color:rgb(237, 228, 228);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.Active{
+background-color: yellow;
+}
+
+.linkDiv{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+}

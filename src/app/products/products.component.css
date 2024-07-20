@@ -1,0 +1,25 @@
+
+p{
+    font-size: large;
+}
+
+.bcircle{
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(52, 52, 166);
+    border-radius: 50%;
+}
+
+.loadingDiv{
+    display:inline-flex;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+.scircle{
+    height: 10px;
+    width: 10px;
+    margin: 3px;
+    border: 2px solid rgb(52, 52, 166);
+    border-radius: 50%;
+}

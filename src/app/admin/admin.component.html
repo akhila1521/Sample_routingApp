@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Login</h2>
+    <div class="formDiv">
+        <form [formGroup] = 'login'>
+            <div class="userDiv">
+                <label>Username</label>
+                <input type="text" formControlName="username"  autofocus>
+            </div>
+            <div class="passDiv">
+                <label>Password </label>
+                <input type="password" formControlName="password">
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="submit()" [disabled]="!login.valid">Login</button>
+        </form>
+    </div>

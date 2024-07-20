@@ -1,0 +1,23 @@
+div{
+    
+    display: inline;
+}
+
+p{
+    margin-bottom: 40px;
+    color: #888;
+}
+a{
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #eee;
+}
+
+h4{
+    font-size:larger;
+}
+
+.btn {
+    color: #888;
+}

@@ -1,0 +1,18 @@
+
+.userDiv{
+    margin-bottom: 20px;
+}
+
+input{
+    margin-left: 40px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 115px;
+    padding: 5px 10px;
+}
+
+label{
+    color: rgb(72, 72, 72);
+}

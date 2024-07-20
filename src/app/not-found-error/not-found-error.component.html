@@ -1,0 +1,27 @@
+
+<div *ngIf="data?.error" class="error-container">
+<h1>Error {{data?.error}}</h1>
+<h4 *ngIf="data?.error === 404">Page Not Found :( </h4>
+</div>
+
+<!-- <div *ngIf="sampleobj$ | async as routeParams;">
+    <h2 *ngIf="routeParams?.status"> Error {{ routeParams?.status }}</h2>
+    <h2 *ngIf="routeParams?.url && routeParams?.url !== '/'">Error in {{ routeParams?.url | uppercase }} page, sorry {{ routeParams?.user }} :(</h2>
+    <h3 *ngIf="routeParams?.message">Error message: <i>{{ routeParams?.message }}</i></h3><br/> -->
+
+<h3><li><a routerLink="['/home']" routerLinkActive="Active">Go Back Home</a></li></h3>
+
+<div class="pre-container">
+    <h2>[For dev purpose only]
+        This is the Error object that was sent to the server:</h2>
+    <pre><h3>{{obj | json}}</h3></pre>
+</div>
+
+<!-- <ng-template #noparams>
+    <div *ngIf="!data">
+      <h1>Unknown error, sorry :(</h1>
+      <a [routerLink]="'/'">
+        <h5>Go Home</h5>
+      </a>
+  </div>
+  </ng-template> -->

@@ -1,0 +1,20 @@
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+}
+
+.Active{
+  color: rgb(83, 82, 82);
+text-decoration: none;
+float: right;
+margin-right: 30px;
+}
+
+  hr{
+   margin-top: 130px;
+
+  }
+
+  p{
+    display: inline;
+  }
